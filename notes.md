@@ -38,3 +38,6 @@ It will create a whole new python environment for you. To activate the environme
 - mutable means you can change the value (identity).
 - immutable means you can't change the value (identity).
 - In the world of immutable what change is reference. variable points to the new memore location(reference).
+
+Lists:
+      - In python world we call it list in other langs we call it array.  it's mutable.
