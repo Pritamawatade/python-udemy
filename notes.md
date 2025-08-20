@@ -74,3 +74,7 @@ Lists:
 
       c = Counter(['a', 'b', 'a', 'c', 'b', 'a'])
       ```
+
+## Conditionals 
+
+- we use pass keyword just to pass the control like continue keyword it says don't do anything just move to the next step.
