@@ -116,3 +116,19 @@ in this code else code will only execute if the loop didn't  break, if loops fin
     - pure vs impure function      : pure function only manupulate data within itself not form global scope recommanded. impure is opposite. 
     - recursive function           : the function which call itself
     - lambdas (anonymous) function : function without name, anonymous function
+
+- Imports
+    - Named import
+
+        from recipe.flavors import demo_chai, ginger_chai # named import
+        print(ginger_chai())
+        print(demo_chai())
+    
+    - All import
+
+        import recipe.flavors  # all import
+        print(recipe.flavors.demo_chai())
+        print(recipe.flavors.ginger_chai())
+
+-  __init__.py
+    - This file convert the normal python folder into the python module/package. In python 3.3 we don't need it actully.
