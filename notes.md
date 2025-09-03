@@ -6,8 +6,8 @@
 
 for Windows python -m venv .venv
 It will create a whole new python environment for you. To activate the environment type
-`      source .venv\Scripts\activate
-     `
+`     source .venv\Scripts\activate
+    `
 
       To deactivate the environment type
       ```
@@ -39,14 +39,12 @@ It will create a whole new python environment for you. To activate the environme
 - immutable means you can't change the value (identity).
 - In the world of immutable what change is reference. variable points to the new memore location(reference).
 
-Lists:
-      - In python world we call it list in other langs we call it array.  it's mutable.
-      Sets:
-      - A set is an unordered collection of unique elements. It's mutable.
-      ```python
+Lists: - In python world we call it list in other langs we call it array. it's mutable.
+Sets: - A set is an unordered collection of unique elements. It's mutable.
+`python
       my_set = {1, 2, 3, 4}
       my_set.add(5)
-      ```
+      `
 
       Tuples:
       - A tuple is an ordered, immutable collection of elements.
@@ -75,6 +73,46 @@ Lists:
       c = Counter(['a', 'b', 'a', 'c', 'b', 'a'])
       ```
 
-## Conditionals 
+## Conditionals
 
 - we use pass keyword just to pass the control like continue keyword it says don't do anything just move to the next step.
+
+- if
+- elif
+- else
+
+## Loops:
+
+- enumerate(iterable) - it return the index also
+- zip(inter1, iter2) - it return the index and value of each list, first list element is index and second list vlaue type. i mean in short it return the touple of the two list.
+- break - it break the whole loop, means the execution loop stops after the break keyword.
+
+- for else loop
+
+```python
+for age,name in voters:
+    if age >= 18:
+        print(f"{name} is eligble for vote")
+else:
+    print("we entered into the else block of loop")
+```
+in this code else code will only execute if the loop didn't  break, if loops finished normally without any break the else part will run, continue does not effect the elese.
+
+
+## Functions 
+
+- Every variable is function scoped
+- nonlocal: nonlocal is keyword in python which  is used to refer the context of the varible which is outside the function scope. (inner function to outer function). it works function to function.
+
+
+- *args: 
+    When passing the args all the arugment passed without the keyword become args. At the function defination it's just the touple. 
+
+- *kwargs: 
+    when calling function all the keyword arguments  become kwargs.  It's dictonary of key value pairs.
+- if return nothing from a function it return None.
+
+- Types of function
+    - pure vs impure function      : pure function only manupulate data within itself not form global scope recommanded. impure is opposite. 
+    - recursive function           : the function which call itself
+    - lambdas (anonymous) function : function without name, anonymous function
