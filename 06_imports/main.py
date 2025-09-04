@@ -13,5 +13,5 @@ print(demo_chai())
 
 # relative import
 
-from .recipe.flavors import demo_chai # you should avoide it
+from .recipe.flavors import demo_chai 
 # from ..05_function. use double .. to go one directory back 
