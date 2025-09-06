@@ -132,3 +132,34 @@ in this code else code will only execute if the loop didn't  break, if loops fin
 
 -  __init__.py
     - This file convert the normal python folder into the python module/package. In python 3.3 we don't need it actully.
+
+## Comprehensions 
+
+- Comprehensions is mainly used for their readibility and easiness of using.
+
+- Comprehension is followed by expression then for loop and then other code.
+
+- list comprehension
+```python
+    l = [item for item in menu if "lemon" in item]
+```
+
+- set comprehension
+```python
+    unique_spices = {spice for ingradients in recipes.values() for spice in ingradients}
+
+```
+
+- dictonary comprehension
+```python
+    tea_prices_usd = {tea:price*80 for tea, price in tea_prices_inr.items() }
+
+```
+- generator comprehension
+
+    generator comprehensions are used to save memory since it doesn't create data/list in memory it gives the object of generator which gives the data one by one
+```python
+ generator_comprehension = (sale for sale in sales if sale > 10)
+    
+
+```
