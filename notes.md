@@ -163,3 +163,22 @@ in this code else code will only execute if the loop didn't  break, if loops fin
     
 
 ```
+
+## Generators and Decorators
+
+- generators is also a one type of function in which we use the `yield` keyword and it used to save memory.
+- we use it when we don't want the result immedietely, lazy evalution. 
+
+```python
+def serve_chai():
+    yield "chai 1"
+    yield "chai 2"
+
+
+one = serve_chai()
+```
+- in this one is keeping the reference of the whole function (serve_chai) and when we loop over one it uses that memory to print the data.
+```
+print(next(one)) # prints the next value form the iterator. The function resume where it is left 
+
+``` 
