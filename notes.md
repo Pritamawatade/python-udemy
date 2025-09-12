@@ -164,7 +164,7 @@ in this code else code will only execute if the loop didn't  break, if loops fin
 
 ```
 
-## Generators and Decorators
+## Generators
 
 - generators is also a one type of function in which we use the `yield` keyword and it used to save memory.
 - we use it when we don't want the result immedietely, lazy evalution. 
@@ -182,3 +182,12 @@ one = serve_chai()
 print(next(one)) # prints the next value form the iterator. The function resume where it is left 
 
 ``` 
+## Decorators
+
+- decorator is a function that takes another function as an argument, adds some functionality, and then returns a new function (or a modified version of the original). 
+
+
+
+
+
+
