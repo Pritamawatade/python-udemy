@@ -186,6 +186,9 @@ print(next(one)) # prints the next value form the iterator. The function resume 
 
 - decorator is a function that takes another function as an argument, adds some functionality, and then returns a new function (or a modified version of the original). 
 
+## Oops
+
+* changing in the object value doesn't effect the class value and other object value
 
 
 
