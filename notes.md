@@ -189,6 +189,8 @@ print(next(one)) # prints the next value form the iterator. The function resume 
 ## Oops
 
 * changing in the object value doesn't effect the class value and other object value
+* Attribute shadowing means if the attribute's fallback value exist in the class defination after deleation the attribute will have that value, if not then error.
+* self keyword in oops in python used to refer the current object of class and with . operator on self we can access the all the property and methods of a class.
 
 
 
