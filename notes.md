@@ -192,7 +192,15 @@ print(next(one)) # prints the next value form the iterator. The function resume 
 * Attribute shadowing means if the attribute's fallback value exist in the class defination after deleation the attribute will have that value, if not then error.
 * self keyword in oops in python used to refer the current object of class and with . operator on self we can access the all the property and methods of a class.
 
+* So if you put () brackters in front of the class and write the name of the parent class it's called inheritence.
+* But instead of that you assign a variable the reference of the class it's called compositon.
+```python
+# Composition
 
+class BaseChai:
+    # code
+class ChildClass:
+    chai = BaseChai # comppositon
+```
 
-
-
+* Every class has constructor if you don't create it. python automatically creates it at the time of execution.
