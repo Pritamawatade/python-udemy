@@ -204,3 +204,8 @@ class ChildClass:
 ```
 
 * Every class has constructor if you don't create it. python automatically creates it at the time of execution.
+
+* Accessing base class can be done with 3 methods #see file base_class.py
+- Code Duplication
+- Explicit call
+- super method
