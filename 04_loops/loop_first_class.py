@@ -1,3 +1,4 @@
+
 for i in range(1,10):   # here instaed of range method it can be any iterable object like string, touple, list etc.
     print(i)
 

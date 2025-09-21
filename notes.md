@@ -209,3 +209,5 @@ class ChildClass:
 - Code Duplication
 - Explicit call
 - super method
+
+* static methods doesn't require static methods they can be callled with class and without object.
