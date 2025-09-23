@@ -211,3 +211,5 @@ class ChildClass:
 - super method
 
 * static methods doesn't require static methods they can be callled with class and without object.
+
+* property with _ means they are private and they need setters and getters(file #property_decorators)
