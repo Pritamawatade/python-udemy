@@ -1,0 +1,3 @@
+qwqw || done
+learn python fast || not_done
+learn ai fast || not_done
