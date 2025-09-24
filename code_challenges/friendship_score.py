@@ -13,7 +13,7 @@ def friendship_score(name1, name2):
       return min(score, 100)
 
 
-print("Friendship calculator")
+print("Friendship calculator ##")
 
 name = input("enter name 1")
 name2 = input("enter name ")
