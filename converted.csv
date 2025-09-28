@@ -1,0 +1,11 @@
+id,name,email,notification,is_active
+1,Alice Johnson,alice.johnson@example.com,True,True
+2,Bob Smith,bob.smith@example.com,False,True
+3,Charlie Brown,charlie.brown@example.com,True,False
+4,Diana Prince,diana.prince@example.com,False,True
+5,Ethan Hunt,ethan.hunt@example.com,True,True
+6,Fiona Gallagher,fiona.gallagher@example.com,False,False
+7,George Miller,george.miller@example.com,True,True
+8,Hannah Lee,hannah.lee@example.com,False,True
+9,Ian Wright,ian.wright@example.com,True,False
+10,Julia Roberts,julia.roberts@example.com,False,True

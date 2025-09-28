@@ -9,7 +9,7 @@ from datetime import datetime
 import requests
 
 
-FILE_NAME = "wether_logs.csv"
+FILE_NAME = "weather_logs.csv"
 
 city = ""
 APIKey = "put-your-own-key-here" # get your own key from openweathermap.org

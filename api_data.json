@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "notification": true,
+        "is_active": true
+    },
+    {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "notification": false,
+        "is_active": true
+    },
+    {
+        "id": 3,
+        "name": "Charlie Brown",
+        "email": "charlie.brown@example.com",
+        "notification": true,
+        "is_active": false
+    },
+    {
+        "id": 4,
+        "name": "Diana Prince",
+        "email": "diana.prince@example.com",
+        "notification": false,
+        "is_active": true
+    },
+    {
+        "id": 5,
+        "name": "Ethan Hunt",
+        "email": "ethan.hunt@example.com",
+        "notification": true,
+        "is_active": true
+    },
+    {
+        "id": 6,
+        "name": "Fiona Gallagher",
+        "email": "fiona.gallagher@example.com",
+        "notification": false,
+        "is_active": false
+    },
+    {
+        "id": 7,
+        "name": "George Miller",
+        "email": "george.miller@example.com",
+        "notification": true,
+        "is_active": true
+    },
+    {
+        "id": 8,
+        "name": "Hannah Lee",
+        "email": "hannah.lee@example.com",
+        "notification": false,
+        "is_active": true
+    },
+    {
+        "id": 9,
+        "name": "Ian Wright",
+        "email": "ian.wright@example.com",
+        "notification": true,
+        "is_active": false
+    },
+    {
+        "id": 10,
+        "name": "Julia Roberts",
+        "email": "julia.roberts@example.com",
+        "notification": false,
+        "is_active": true
+    }
+]
