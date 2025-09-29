@@ -8,7 +8,6 @@ OUTPUT_FILE='converted.csv'
 def load_json_data(filename):
     
     if not os.path.exists(filename):
-        print(filename)
         print("FILE not found")
         return []
     
