@@ -12,7 +12,7 @@ def load_or_crete_key():
         with open(KEY_FILE, 'wb') as f:
             f.write(key)
     else:
-        with open(KEY_FILE, 'wb') as f:
+        with open(KEY_FILE, 'rb') as f:
             key = f.read()
             
     return Fernet(key)
@@ -25,7 +25,8 @@ def load_vault():
         return []
     
     with open(VAULT_FILE, 'r', encoding='utf-8') as f:
-        json.load(f)
+        return json.load(f)
+        
 
 
 def save_vault(data):
@@ -57,17 +58,27 @@ def list_note():
         return []
     
     for i, item in enumerate(data):
-        print(f"{item['title']} | {item['timestamp']}")
+        print(f"{i} {item['title']} | {item['timestamp']}")
 
 
 def view_note():
     list_note()
     try:
-        index = int(input("Enter index of the note")) - 1
+        index = int(input("Enter index of the note"))
+        print(f"index = {index}")
         data = load_vault()
+        print(f"data = {data}")
+        print(f"data length = {len(data)}")
+        
         if 0<= index < len(data):
-            encrypted_content = data[index]["content"]
-            decrypted_content = fernet.decrypted(encrypted_content.encode()).decode()
+            print(f"Valid index {index}")
+            print(f"data at index tile {data[index]['content']}")
+            print(f"data at index {data[index]}")
+            encrypted_content = data[index]['content']
+            # print("Decrypted content :", decrypted_content  )
+            decrypted_content = fernet.decrypt(encrypted_content.encode()).decode()
+            
+            
             print(f"\n {data[index]['title']} {data[index]['timestamp']}\n\n {decrypted_content}")
         else:
             print("Invaild selection.")
