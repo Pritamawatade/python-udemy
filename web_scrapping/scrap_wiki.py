@@ -25,14 +25,14 @@ def get_h2_headers(url):
         tags.append(hearder_text)
     
     print(tags)
+    return tags
 
 
+def main(data):
+    
+    print(f"\n\n\n\n first 5 tags\n\n {data[:5]}")
+    
 
-
-get_h2_headers(URL)
-
-
-
-
-
-
+if __name__ == "__main__":
+    data = get_h2_headers(URL)
+    main(data)
