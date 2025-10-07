@@ -26,7 +26,7 @@ def fetch_top_post():
         content = link.get('href').strip()
         links.append({"title": title, "content": content})
         
-    return links` 
+    return links
 
 def save_to_csv(data):
     
