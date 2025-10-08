@@ -1,13 +1,2 @@
-# Python virtual environment
-
-# Python cache files
-__pycache__/
-*.pyc
-lib64
-lib/
-bin/
-include/
-share
-pyvenv.cfg
-# Environment variables
-.env
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
