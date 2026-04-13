@@ -1,6 +1,6 @@
 def friendship_score(name1, name2):
-      name1, name2 = name1.lower(), name2.lower()
       score = 0
+      name1, name2 = name1.lower(), name2.lower()
       shared_letters = set(name1) & set(name2)
       print(f"shared letters: {shared_letters}  ")
       vowels = set('aeiou')
@@ -26,7 +26,6 @@ if(score > 70):
     print("You are like mouse and keyboard")
 elif(score > 50):
     print("You are like coke and mentos")   
-    
 else:
     print("You are like oil and water")
     
