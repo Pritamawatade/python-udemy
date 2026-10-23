@@ -3,8 +3,6 @@ import csv
 from datetime import datetime
 import requests
 import matplotlib.pyplot as plt
-import schedule
-import time
 import sqlite3
 
 
